@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ngrx-test-17cb7": {
+      "hosting": {
+        "ngrx-example": [
+          "ngrx-test-17cb7"
+        ]
+      }
+    }
+  }
+}

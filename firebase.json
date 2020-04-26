@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "ngrx-example",
+      "public": "dist/ngrx-example",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
