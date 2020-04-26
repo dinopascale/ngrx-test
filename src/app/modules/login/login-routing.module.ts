@@ -8,7 +8,7 @@ const routes: Routes = [
   {
     path: 'sign-in',
     component: SignInComponent,
-    ...redirectLoggedToHomeGuard
+    // ...redirectLoggedToHomeGuard
   }
 ];
 
