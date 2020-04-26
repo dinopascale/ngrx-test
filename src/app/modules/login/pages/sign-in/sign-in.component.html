@@ -1,3 +1,9 @@
 <app-google-login (logged)="login($event)"></app-google-login>
 <app-facebook-login (logged)="login($event)"></app-facebook-login>
 <button (click)="logout()">Logout</button>
+
+<div *ngIf="test$ | async as user">
+  <p>{{user.username}}</p>
+  <p>{{user.email}}</p>
+  <img [src]="user.image">
+</div>
